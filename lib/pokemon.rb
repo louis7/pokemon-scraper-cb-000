@@ -10,7 +10,7 @@ attr_accessor :name, :id, :type, :db
       @hp   = hp
 
   end
-  
+
   def self.save(name, type, db)
     db.execute("INSERT INTO pokemon (name, type,hp) VALUES (?, ?,?)", name, type,60)
   end
