@@ -71,4 +71,3 @@ describe "Pokemon" do
       expect(Pokemon.find(2, @db).hp).to eq(0)
    end
   end
-end
